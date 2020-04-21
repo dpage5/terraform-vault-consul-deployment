@@ -19,11 +19,11 @@ variable "consul_ent_license" { default = "" }
 # This is not implimented yet
 #variable "vault_ent_license" { default = "" }
 variable "consul_version" {
-  default = "1.7.2"
+  default = "1.7.2+ent"
 }
 variable "consul_download_url" { default = "" }
 variable "vault_version" {
-  default = "1.4.0"
+  default = "1.4.0+ent"
 }
 variable "vault_download_url" { default = "" }
 variable "cluster_tag_key" { default = "consul-servers" }
